@@ -28,3 +28,6 @@ body {
 html {
   background-color: var(--darkgreen);
 }
+.chat-html {
+  background-color: var(--green);
+}

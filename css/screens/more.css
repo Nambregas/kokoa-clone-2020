@@ -1,5 +1,5 @@
 .more-screen .user-component__column:last-child {
-  color: black;
+  color: white;
 }
 .more-screen .icon-row {
   margin-top: 30px;
@@ -8,15 +8,17 @@
   margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
+  width: 100%;
 }
 .more-suggestions__title {
   margin-bottom: 30px;
 }
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,4 +36,7 @@
 .more-suggestions__icon-img i {
   font-size: 32px;
   color: white;
+}
+.more-suggestions__icon-text {
+  text-align: center;
 }

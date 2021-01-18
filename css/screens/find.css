@@ -7,14 +7,14 @@
 }
 .recommended-friends__title {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 .recommended-friends span {
   margin: 100px 0;
   display: block;
   font-size: 18px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 .open-chat__header {
   display: flex;
@@ -61,7 +61,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 .open-post__members-status {
-  color: #ffb0e0;
+  color: var(--yellow);
 }
 .open-post__photo {
   position: relative;
