@@ -130,7 +130,7 @@ table {
 input:focus {
   outline: none;
 }
-a {
+a:link {
   text-decoration: none;
 }
 a:visited {
