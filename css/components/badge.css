@@ -9,3 +9,12 @@
   color: white;
   font-weight: 600;
 }
+.badge-mini {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
